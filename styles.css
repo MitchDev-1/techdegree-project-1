@@ -126,7 +126,12 @@ ul.skills {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 50px 0 50px 50px;
+  margin-top: -100;
+  margin-bottom: 0;
+  position: relative;
+  background-color: #29263113;
+
 }
 
 footer .copyright {
@@ -182,7 +187,6 @@ a.social:hover {
 }
 
 
-
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
@@ -215,7 +219,7 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
-    max-width: 1200px;
+    max-width: 3200px;
     margin: 40px auto;
   }
 
